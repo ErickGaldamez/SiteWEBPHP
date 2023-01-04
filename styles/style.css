@@ -1,0 +1,14 @@
+*{
+  background-color: aqua;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+h1{
+  color: royalblue;
+}
+p{
+  color: brown;
+}
