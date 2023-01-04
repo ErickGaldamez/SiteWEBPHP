@@ -5,11 +5,13 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./styles/style.css">
-  <title>Nouveau Site Web</title>
+  <title>MonSiteWeb</title>
 </head>
 <body>
-<h1>Acceuil</h1>
-  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa dolore quos porro est doloremque aliquid ratione excepturi sunt non! Laborum optio ratione et voluptates fugit numquam asperiores ad labore eum?</p>
+<h1>Mon page d'Acceuil</h1>
+    <?php
+       include "../MiSitioWeb/Composants/navbar.php"
 
+    ?>
 </body>
 </html>
