@@ -1,9 +1,26 @@
 <?php
-//Se connecter a la DB
+class DB{
+  private $connect;
 
-$connect = connectToDB();
-      ?>
-    </div>
-  </body>
-</html>
+  function __construct(){
+    /* Connexion à mon serveur */
+    $dsn = 'mysql:dbname=nuevappp;host=localhost';
+    $user = 'root';
+    $password = '';
 
+    $this -> connect = new PDO($dsn, $user, $password);
+  }
+    
+
+  /**
+   * Get the value of connect
+   */
+  protected function getConnect()
+  {
+    return $this->connect;
+  }
+
+  static function getConnection(){
+    return new self();
+  }
+}

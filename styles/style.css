@@ -1,5 +1,5 @@
 *{
-  background-color: rgb(217, 247, 199);
+  background-color: rgb(237, 241, 235);
   margin: 0;
   padding: 0;
   list-style: none;
@@ -7,8 +7,12 @@
 }
 
 h1{
+  font-style: italic;
+  text-align: center;
   color: royalblue;
+  hover: black;
 }
 p{
   color: brown;
+  
 }

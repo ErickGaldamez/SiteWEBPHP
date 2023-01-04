@@ -8,7 +8,7 @@
   <title>MonSiteWeb</title>
 </head>
 <body>
-<h1>Mon page d'Acceuil</h1>
+<h1>Entreprise Eurêka</h1><br><br>
     <?php
        include "../MiSitioWeb/Composants/navbar.php"
 
